@@ -1,3 +1,4 @@
+var clickedcaca;
 (function($) {
 
 	var	$window = $(window),

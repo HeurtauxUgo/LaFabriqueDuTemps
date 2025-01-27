@@ -2462,7 +2462,6 @@ input::-moz-focus-inner {
 	input[type="radio"]:checked + label:before {
 		background-color: #212931;
 		border-color: #212931;
-		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -4453,3 +4452,15 @@ input::-moz-focus-inner {
 		}
 
 	}
+
+td{
+	vertical-align: middle;
+}
+@media screen and (max-width: 1080px) {
+	.article-description{
+		display: none;
+	}
+	.article-image{
+		width: 30% !important;
+	}
+}
